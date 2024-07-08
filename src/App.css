@@ -1,0 +1,88 @@
+/* App.css */
+
+body {
+  background-color: #121212; /* Spotify dark background */
+  color: #ffffff; /* Text color */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #1DB954; /* Spotify green */
+}
+
+.navbar .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar .form-control {
+  background-color: #282828; /* Dark input background */
+  border: 2px solid cadetblue;
+  color: #ffffff;
+}
+
+.navbar .btn-outline-success {
+  color: #ffffff;
+  border-color: #1DB954;
+}
+
+.navbar .btn-outline-success:hover {
+  background-color: #1DB954;
+  border-color: #1DB954;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #282828; /* Dark card background */
+  border: none;
+}
+
+.card .card-img-top {
+  border-radius: 0;
+}
+
+.card .card-body {
+  color: #ffffff;
+}
+
+.player-container {
+  background-color: #181818; /* Slightly lighter dark background */
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #282828;
+  color: #ffffff;
+}
+
+.player-container .track-info img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.player-container .track-details {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.player-container .player-controls button {
+  background: none;
+  border: none;
+  color: #1DB954;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.player-container .player-controls button:hover {
+  color: #1ed760; /* Slightly brighter green */
+}
+
+.no-track {
+  text-align: center;
+  color: #ffffff;
+}
