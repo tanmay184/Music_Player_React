@@ -1,8 +1,8 @@
 {
   "name": "music-player-react",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
-  "homepage": "https://your-username.github.io/your-repository-name",
+  "homepage": "https://github.com/tanmay184/Music_Player_React",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
