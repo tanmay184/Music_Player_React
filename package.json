@@ -1,6 +1,6 @@
 {
   "name": "music-player-react",
-  "private": false,
+  
   "version": "1.0.0",
   "homepage": "https://github.com/tanmay184/Music_Player_React",
   "type": "module",
